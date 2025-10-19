@@ -20,6 +20,10 @@
 # include <semaphore.h>
 # include <signal.h>
 # include <unistd.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <semaphore.h>
+#include <sys/wait.h>
 
 # define RESET		"\033[0m"
 # define RED		"\033[31m"
